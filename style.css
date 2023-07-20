@@ -143,7 +143,12 @@ justify-content: space-between;
 background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
 padding: 0 50px;
 }
-
+.section2-left{
+    padding-top: 50px;
+}
+.section2-right{
+    padding-top: 100px;
+}
 
 .section2-title{
     background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
@@ -238,10 +243,10 @@ line-height: 30px;
 .left-text{
     text-align: right;
 font-size: 48px;
-
+padding-top: 200px;
 font-weight: 700;
 line-height: 60px; 
-padding-left: 400px;
+padding-left: 450px;
 }
 .pink-text{
     text-align: right;
@@ -261,6 +266,7 @@ height: 650px;
 flex-shrink: 0;
 border-radius: 8px;
 background: url(<path-to-image>), lightgray -7.583px 0px / 102.389% 100% no-repeat;
+margin-right: 100px;
 }
 .front-image1{
     width: 318.5px;
@@ -292,7 +298,8 @@ left: -25%;
     width: 1920px;
     display: flex;
     justify-content: space-between;
-    margin: 100px 0;
+  margin: 100px 0;
+   padding: 100px 0;
    
 }
 .background-image2{
@@ -301,6 +308,7 @@ left: -25%;
     flex-shrink: 0;
     border-radius: 8px;
 background: url(<path-to-image>), lightgray 0px -18.568px / 100% 146.779% no-repeat;
+margin-left: 300px;
 }
 .front-image2{
     width: 318px;
@@ -312,6 +320,10 @@ background: url(<path-to-image>), lightgray -7.209px 0px / 114.78% 100% no-repea
 position: absolute;
 bottom: -10%;
 right: -25%;
+}
+.right-text-container{
+    padding-top: 200px;
+    padding-right: 50px;
 }
 .right-title{
     text-align: right;
@@ -336,10 +348,40 @@ height: 821px;
 flex-shrink: 0;
 background: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
 display: flex;
-justify-content: space-between;
+align-items: center;
+justify-content: center;
+}
+.career-title{
+    width: 426px;
+    color: #FFF;
+font-size: 48px;
+font-weight: 700;
+line-height: 60px; 
+}
+.career-description{
+    color: #FFF;
+font-size: 18px;
+font-weight: 400;
+line-height: 30px; 
 }
 .left-container{
     color: #FFF;
+
+}
+.left-lists{
+    color: #FFF;
+font-size: 20px;
+font-weight: 600;
+line-height: 40px; 
+padding-top: 50px;
+}
+.right-lists{
+    color: #FFF;
+text-align: right;
+font-size: 20px;
+font-weight: 600;
+line-height: 40px;
+padding-top: 50px;
 
 }
 .text > h3{
@@ -363,12 +405,11 @@ padding-left: 80px;
 .list-container{
     display: flex;
     color: #FFF;
-font-family: Work Sans;
 font-size: 20px;
-font-style: normal;
 font-weight: 600;
 line-height: 40px; 
 padding-left: 35px;
+justify-content: space-between;
 }
 .white-btn{
     display: inline-flex;
@@ -393,7 +434,7 @@ background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 16
 display: grid;
 grid-template-columns: repeat(5, 1fr);
 
-justify-content: space-between;
+
 }
 .game-types{
     width: 243px;
@@ -419,7 +460,6 @@ line-height: normal;
 height: 636px;
 flex-shrink: 0;
 background: #0B0223;
-
 
 }
 .nav-section-bottom{
