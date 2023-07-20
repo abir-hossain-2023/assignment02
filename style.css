@@ -1,4 +1,6 @@
-
+*{
+    margin: 0;
+}
 .gamer-container{
     display: flex;
 }
@@ -38,6 +40,7 @@ font-size: 34px;
 font-weight: 700;
 gap: 20px;
 align-items: center;
+
 
 }
 .follow-us-container{
@@ -227,33 +230,39 @@ font-weight: 400;
 line-height: 30px; 
 }
 .text-image-container1{
+    width: 1920px;
     display: flex;
-    gap: 20%;
-    margin-top: 100px;
+    justify-content: space-between;
+    margin: 100px 0;
 }
 .left-text{
     text-align: right;
-font-family: Work Sans;
 font-size: 48px;
-font-style: normal;
+
 font-weight: 700;
 line-height: 60px; 
-padding-left: 300px;
+padding-left: 400px;
 }
 .pink-text{
-    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    text-align: right;
+font-size: 48px;
+font-weight: 700;
+line-height: 60px; 
+    background: linear-gradient(180deg, #F948B2 0%, #f158cd 100%);
 background-clip: text;
 -webkit-background-clip: text;
 -webkit-text-fill-color: transparent;
 }
-.background-image{
+
+
+.background-image1{
     width: 634.833px;
 height: 650px;
 flex-shrink: 0;
 border-radius: 8px;
 background: url(<path-to-image>), lightgray -7.583px 0px / 102.389% 100% no-repeat;
 }
-.front-image{
+.front-image1{
     width: 318.5px;
 height: 365.083px;
 flex-shrink: 0;
@@ -274,8 +283,179 @@ line-height: 30px;
 .position-image{
     position: relative;
 }
-.front-image{
+.front-image1{
 position: absolute;
 bottom: -10%;
 left: -25%;
+}
+.text-image-container2{
+    width: 1920px;
+    display: flex;
+    justify-content: space-between;
+    margin: 100px 0;
+   
+}
+.background-image2{
+    width: 710px;
+    height: 650px;
+    flex-shrink: 0;
+    border-radius: 8px;
+background: url(<path-to-image>), lightgray 0px -18.568px / 100% 146.779% no-repeat;
+}
+.front-image2{
+    width: 318px;
+    height: 365px;
+    flex-shrink: 0;
+    border-radius: 8px;
+border: 10px solid #FFF;
+background: url(<path-to-image>), lightgray -7.209px 0px / 114.78% 100% no-repeat;
+position: absolute;
+bottom: -10%;
+right: -25%;
+}
+.right-title{
+    text-align: right;
+font-size: 48px;
+
+font-weight: 700;
+line-height: 60px; 
+}
+.right-description{
+    width: 400px;
+    color: #534C64;
+text-align: left;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px; 
+}
+
+.career-section{
+    width: 1920px;
+height: 821px;
+flex-shrink: 0;
+background: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
+display: flex;
+justify-content: space-between;
+}
+.left-container{
+    color: #FFF;
+
+}
+.text > h3{
+    
+    width: 426px;
+    color: #FFF;
+
+font-size: 48px;
+padding-left: 80px;
+font-weight: 700;
+line-height: 60px; 
+}
+.text > p{
+    width: 680px;
+    color: #FFF;
+font-size: 18px;
+font-weight: 400;
+line-height: 30px; 
+padding-left: 80px;
+}
+.list-container{
+    display: flex;
+    color: #FFF;
+font-family: Work Sans;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: 40px; 
+padding-left: 35px;
+}
+.white-btn{
+    display: inline-flex;
+padding: 21px 40px;
+align-items: flex-start;
+gap: 10px;
+border-radius: 48px;
+background: #FFF;
+font-size: 20px;
+font-weight: 600;
+line-height: normal;
+text-transform: uppercase;
+border: 0;
+color: rgb(218, 69, 118);
+
+}
+.game-types-container{
+    width: 1920px;
+height: 427px;
+flex-shrink: 0;
+background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+display: grid;
+grid-template-columns: repeat(5, 1fr);
+
+justify-content: space-between;
+}
+.game-types{
+    width: 243px;
+height: 80px;
+flex-shrink: 0;
+border-radius: 50px;
+background: #FFF;
+display: flex;
+align-items: center;
+gap: 10px;
+}
+
+.game-types > h6{
+    color: #0B0223;
+
+font-size: 20px;
+
+font-weight: 600;
+line-height: normal;
+}
+.footer-container{
+    width: 1920px;
+height: 636px;
+flex-shrink: 0;
+background: #0B0223;
+
+
+}
+.nav-section-bottom{
+    display: flex;
+    list-style: none;
+    color: #FFF;
+text-align: center;
+font-family: Work Sans;
+font-size: 18px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+gap: 20px;
+}
+.footer-icons {
+display: flex;
+gap: 20px;
+}
+
+.final-list-items{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    text-align: center;
+}
+.final-list-items > li{
+    color: rgba(255, 255, 255, 0.60);
+text-align: center;
+font-size: 16px;
+font-weight: 500;
+line-height: normal;
+}
+.copyright-section{
+    color: rgba(255, 255, 255, 0.60);
+
+font-size: 16px;
+font-weight: 500;
+line-height: normal;
 }
